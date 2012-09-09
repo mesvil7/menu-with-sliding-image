@@ -1,0 +1,63 @@
+html, body, div, span, ul, li, menu, nav {margin: 0; padding: 0; border: 0; font: inherit; vertical-align: baseline; }
+/* HTML5 display-role reset for older browsers */
+nav{display: block; }
+body {line-height: 1; }
+ul {list-style: none; }
+a{text-decoration:none; }
+body{font-size:62.5%; }
+
+/*
+NAV ========================================== */
+
+nav{
+	margin: 20px auto 0;
+	border-radius: 5px;
+	-webkit-box-shadow: 1px 0 3px rgba(0,0,0,.31);
+	-moz-box-shadow: 1px 0 3px rgba(0,0,0,.31);
+	box-shadow: 1px 0 3px rgba(0,0,0,.31);
+	background: #53DCF5;
+    border: 2px solid #FFFFFF;
+}
+nav ul{
+	position: relative;
+	overflow: hidden;
+	padding: 10px 30px;
+	z-index: 1;
+}
+nav li{
+	float: left;
+	margin-left: 25px;
+	padding: 0 5px;
+}
+nav li a{
+	font-family: Helvetica;
+	color: #FFFFFF;
+	font-size: 2em;
+	font-weight: bold;
+	text-shadow: -1px 0 1px rgba(79,81,80,0.4);
+}
+nav li a:hover{
+	text-shadow: -1px 0 1px rgba(0,0,0,0.3);	
+}
+
+/*
+CURSOR ============================ */
+
+#cursor{
+	height: 43px;
+	position: absolute;
+}
+#cursor div{
+	float: left;
+	height: 100%;
+	width: 16px;
+}
+#left{
+	background: url("../images/left.png") no-repeat scroll 0 0 transparent;
+}
+#right{
+	background: url("../images/right.png") no-repeat scroll 0 0 transparent;
+}
+#cursor_content{
+	background: url("../images/center.png") repeat-x scroll 0 0 transparent;
+}
